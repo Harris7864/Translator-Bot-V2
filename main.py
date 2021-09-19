@@ -54,8 +54,8 @@ HELP_BUTTONS = InlineKeyboardMarkup(
     )
 ABOUT_BUTTONS = InlineKeyboardMarkup(
         [[
-        InlineKeyboardButton('Channel', url='https://telegram.me/FayasNoushad'),
-        InlineKeyboardButton('Feedback', url='https://telegram.me/TheFayas')
+        InlineKeyboardButton('Channel', url='https://telegram.me/GOD_OF_WORLD1'),
+        InlineKeyboardButton('Feedback', url='https://telegram.me/Harris211')
         ],[
         InlineKeyboardButton('Home', callback_data='home'),
         InlineKeyboardButton('Help', callback_data='help'),
@@ -69,7 +69,7 @@ CLOSE_BUTTON = InlineKeyboardMarkup(
     )
 TRANSLATE_BUTTON = InlineKeyboardMarkup(
         [[
-        InlineKeyboardButton('⚙ Join Updates Channel ⚙', url='https://telegram.me/FayasNoushad')
+        InlineKeyboardButton('⚙ Join Updates Channel ⚙', url='https://telegram.me/GOD_OF_WORLD1')
         ]]
     )
 LANGUAGE_BUTTONS = InlineKeyboardMarkup(
@@ -132,7 +132,7 @@ async def cb_data(bot, update):
             translate_text = f"**Translated to {language}**"
             translate_text += f"\n\n{translate.text}"
             if len(translate_text) < 4096:
-                translate_text += "\n\nMade by @FayasNoushad"
+                translate_text += "\n\nMade by @GOD_OF_WORLD1"
                 await message.edit_text(
                     text=translate_text,
                     disable_web_page_preview=True,
@@ -143,13 +143,13 @@ async def cb_data(bot, update):
                     translate_file.name = language + ".txt"
                     await update.reply_document(
                         document=translate_file,
-                        caption="Made by @FayasNoushad",
+                        caption="Made by @GOD_OF_WORLD1",
                         reply_markup=TRANSLATE_BUTTON
                     )
                 await message.delete()
         except Exception as error:
             print(error)
-            await message.edit_text("Something wrong. Contact @TheFayas.")
+            await message.edit_text("Something wrong. Contact @Harris211.")
 
 
 @Bot.on_message(filters.command(["start"]))
