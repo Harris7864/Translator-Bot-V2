@@ -1,5 +1,5 @@
 # Made with python3
-# (C) @FayasNoushad
+# (C) @GOD_OF_WORLD1
 # Copyright permission under MIT License
 # All rights reserved by FayasNoushad
 # License -> https://github.com/FayasNoushad/Translator-Bot-V2/blob/main/LICENSE
@@ -21,19 +21,19 @@ Bot = Client(
 START_TEXT = """
 Hello {}, I am a google translator telegram bot.
 
-Made by @FayasNoushad
+Made by @GOD_OF_WORLD1
 """
 HELP_TEXT = """
 - Just send a text with language code
 - And select a language for translating
 
-Made by @FayasNoushad
+Made by @GOD_OF_WORLD1
 """
 ABOUT_TEXT = """
 - **Bot :** `Translator Bot V2`
-- **Creator :** [Fayas](https://telegram.me/TheFayas)
-- **Channel :** [Fayas Noushad](https://telegram.me/FayasNoushad)
-- **Source :** [Click here](https://github.com/FayasNoushad/Translator-Bot-V2)
+- **Creator :** [Harris](https://telegram.me/Harris211)
+- **Channel :** [GOD OF WORLD](https://telegram.me/GOD_OF_WORLD1)
+
 - **Language :** [Python3](https://python.org)
 - **Library :** [Pyrogram](https://pyrogram.org)
 - **Server :** [Heroku](https://heroku.com)
